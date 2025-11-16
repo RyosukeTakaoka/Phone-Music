@@ -35,16 +35,6 @@
 			path = "Phone Music";
 			sourceTree = "<group>";
 		};
-		77CD071E2EC9A2FD005F4853 /* Phone MusicTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Phone MusicTests";
-			sourceTree = "<group>";
-		};
-		77CD07282EC9A2FD005F4853 /* Phone MusicUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Phone MusicUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				77CD07102EC9A2FA005F4853 /* Phone Music */,
-				77CD071E2EC9A2FD005F4853 /* Phone MusicTests */,
-				77CD07282EC9A2FD005F4853 /* Phone MusicUITests */,
 				77CD070F2EC9A2FA005F4853 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				77CD071D2EC9A2FD005F4853 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				77CD071E2EC9A2FD005F4853 /* Phone MusicTests */,
-			);
 			name = "Phone MusicTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				77CD07272EC9A2FD005F4853 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				77CD07282EC9A2FD005F4853 /* Phone MusicUITests */,
 			);
 			name = "Phone MusicUITests";
 			packageProductDependencies = (
